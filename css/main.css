@@ -2,5 +2,35 @@
 	max-width: 80%;
 	margin: 0 auto;
 	padding: 0 5%;
-	background: orange;
+}
+
+#logo {
+	text-align: center;
+	margin: 0;
+}
+
+a {
+	text-decoration: none;
+}
+
+header {
+	background: #6ab47b;
+	border-color: #599a68;
+}
+
+h1 {
+	color: #ffffff;
+	margin: 0 0 0 0;
+}
+
+h2 {
+	color: #ffffff;
+}
+
+nav {
+	background: #599a68;
+}
+
+nav a, nav a:visited {
+	color: #fff;
 }
