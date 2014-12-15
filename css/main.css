@@ -1,16 +1,39 @@
+/*######################### 
+General
+#########################*/
+
 #wrapper {
 	max-width: 80%;
 	margin: 0 auto;
 	padding: 0 5%;
 }
 
+/* Links */
+a {
+	text-decoration: none;
+}
+
+
+
+/*######################### 
+Heading
+#########################*/
+
 #logo {
 	text-align: center;
 	margin: 0;
 }
 
-a {
-	text-decoration: none;
+
+
+/*######################### 
+Colours
+#########################*/
+
+/* Site body */
+body {
+	background-color: #fff;
+	color: #999;
 }
 
 header {
@@ -18,19 +41,26 @@ header {
 	border-color: #599a68;
 }
 
-h1 {
+/* Logo Text */
+h1, h2{
 	color: #ffffff;
 	margin: 0 0 0 0;
 }
 
-h2 {
-	color: #ffffff;
-}
-
+/* Nav Background */
 nav {
 	background: #599a68;
 }
 
 nav a, nav a:visited {
-	color: #fff;
+	color: ;
 }
+
+nav a.selected, nav a:hover {
+	color: #32673f;
+}
+
+
+
+
+
