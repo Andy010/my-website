@@ -36,6 +36,7 @@ header {
 #logo {
 	text-align: center;
 	margin: 0;
+	padding: 0;
 }
 
 h1 {
@@ -46,7 +47,16 @@ h1 {
 	line-height: 0.8em;
 }
 
+h2 {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 0.75em;
+	padding: 15px;
+	font-weight: 400;
+}
 
+header ul {
+	padding: 0;
+}
 
 /*######################### 
 Footer
@@ -58,6 +68,12 @@ footer {
 	clear: both;
 	padding: 50px 0 0 0;
 	color: #ccc ;
+}
+
+.social-icon {
+	width: 20px;
+	height: 20px;
+	margin: 0 5px;
 }
 
 
@@ -82,6 +98,10 @@ nav li {
 	display: inline-block;
 }
 
+nav a {
+	font-weight: 800;
+	padding: 15px 10px;
+}
 /*######################### 
 Page: Portfolio
 #########################*/
